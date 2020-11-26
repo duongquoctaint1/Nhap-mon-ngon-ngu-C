@@ -14,4 +14,3 @@ int a,b;
 	getchar();
 	return 0;
 }
-Aa
