@@ -9,8 +9,8 @@ int main(){
 	printf ("nhap so luong =");
 	scanf("%d",& soluong);
 	thanhtien =(float)soluong*dongia;
-	if (soluong >= 5){ 
-	thanhtien=((float)soluong*dongia)*0.75;
+	if (soluong >= 5 && dongia >=500){ 
+	thanhtien=((float)soluong*dongia)*0.5;
 		printf ("%f",thanhtien );
 	}else {
 		printf ("%f",thanhtien);
