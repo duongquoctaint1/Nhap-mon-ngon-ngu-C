@@ -30,6 +30,9 @@ int main(void) {
     printf("30 ngay");break;
     case 12:
     printf("31 ngay");break;
+      default: 
+  printf("nhap 12 thang trong nam");
+  break;
   }
 return 0;
 }
