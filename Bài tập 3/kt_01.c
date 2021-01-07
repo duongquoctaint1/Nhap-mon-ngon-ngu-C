@@ -16,3 +16,26 @@ int main (){
       printf ("4 * 3= 12\n");
 return 0;
   }
+
+
+
+#include <stdio.h>
+int main (){
+  int a,b;
+  printf("bang cuu chuong\n");
+  printf("bang 2\n");
+  a=2;
+for(int b = 1; b <= 3; b++){
+  printf("%d x %d = %d\n",a,b,a*b);}
+  printf("bang 3\n");
+  a=3;
+for(int b = 1; b <= 3; b++){
+  printf("%d x %d = %d\n",a,b,a*b);
+}
+printf("bang 4\n");
+  a=4;
+for(int b = 1; b <= 3; b++){
+  printf("%d x %d = %d\n",a,b,a*b);
+}
+return 0;
+}
