@@ -1,10 +1,12 @@
 #include <stdio.h>
-int main(){    
-    int a[4]={3,5,7,2};
-    int i,sum=0;
-    for (i=0;i<4;i++){
-    printf("Phan tu thu %d: %d\n",i+1,a[i]);
-sum+=a[i];}
-printf("Tong cac phan tu trong mang: %d",sum);
-  return 0;
+
+int main(){
+    int a[4] = {3, 5 , 7, 2}, s = 0;
+    int i;
+    for (i = 0; i < 4; i++){
+        printf("%d ", a[i]);
+        s = s + a[i];
+    }
+    printf("\n%d", s);
+    return 0;
 }
