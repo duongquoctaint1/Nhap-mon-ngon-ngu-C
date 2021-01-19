@@ -17,7 +17,7 @@ for(int i = 0; i < n; i++){
 // Hien thi n phan tu cua mang a
 printf("Hien thi tat ca phan tu mang a:\n");
 for(int i = 0; i < n; i++){
-  printf("%d", a[i]);
+  printf("%d ", a[i]);
 }
   printf("\nHien thi tat ca phan tu chan:\n");
   for (i = 0; i < n; i++)
