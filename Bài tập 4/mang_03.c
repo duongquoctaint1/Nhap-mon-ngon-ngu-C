@@ -25,25 +25,34 @@ for(int i = 0; i < n; i++){
     if (a[i] % 2 == 0)
     {
       printf("%d ", a[i]);
-     
     }
   }
+int b = 0;
+for (i=0; i<n; i++){
+  if (a[i]%2 == 0 && a[i] !=0)
+  b= b + 1;
+  }
+printf(" tong cac so chan: %d",b);
 printf("\nHien thi tat ca phan tu le:\n");
   for (i = 0; i < n; i++)
   {
     if (a[i] % 2 != 0)
     {
       printf("%d ", a[i]);
-     
     }
   }
+int c = 0;
+for (i=0; i<n; i++){
+  if (a[i]%2 != 0 && a[i] !=0)
+  c= c + 1;
+  }
+printf(" tong cac so le: %d",c);
   printf("\nHien thi so 0:\n");
   for (i = 0; i < n; i++)
   {
     if (a[i] == 0)
     {
       printf("%d ", a[i]);
-     
     }
   }
   return 0;
